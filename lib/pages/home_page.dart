@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Scanner Card'),
+        title: const Text('Code Scanner'),
         centerTitle: true,
         elevation: 2,
       ),
@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
-                  'Scan Card or Document',
+                  'Place Document to be Scanned',
                   style: TextStyle(
                     color: AppColors.white,
                     fontSize: 18,
